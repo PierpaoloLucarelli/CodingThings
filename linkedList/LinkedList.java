@@ -15,10 +15,15 @@ public class LinkedList {
 
 
 	public static void main(String args[]){
-		LinkedList ll = new LinkedList(1);
-		ll.add(2);
-		ll.add(3);
-		ll.printList();
+		// LinkedList ll = new LinkedList(1);
+		// ll.add(2);
+		// ll.add(3);
+		// ll.printList();
+
+
+		Node head = new Node(1);
+		head.add(2);
+		head.printList();
 	}
 }
 
